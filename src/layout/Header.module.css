@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(234, 234, 234);
+    padding-block: 5px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 40px;
+    margin-left: 40px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header div button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.header div button:hover {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.header div button:focus {
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.header span {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.header span img {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.header span p {
+    margin-right: 5px;
+    font-size: 0.7rem;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #a62626;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.personal {
+    position: relative;
+}
+
+.dropdown {
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    box-shadow: -1px 2px 2px 1px rgba(244 244 245 / 0.5), 1px -2px 2px 1px rgba(244 244 245 / 0.5);
+}
+
+.dropdown a {
+    width: 100px;
+    margin-block: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid silver;
+    font-size: 0.8rem;
+}
+
+.dropdown a:last-child {
+    border: none;
+}
